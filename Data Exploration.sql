@@ -84,7 +84,11 @@ GROUP BY
 ORDER BY
  DeathPercentage DESC
   
--- Further analysis 
+
+  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ -- Further analysis 
+ 
 SELECT
   dea.location,
   population,
@@ -105,8 +109,8 @@ ON
   AND  dea.date = vac.date
 WHERE
   dea.continent IS NOT NULL
-  
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
  --Countries with Highest icu and hospitalisation Rate compared to Population
  
 SELECT
